@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Layout y Rutas</title>
+    </head>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Estilo de header */
+        header {
+            background-color: rgb(65, 25, 63);
+            padding: 1px;
+            text-align: center;
+            font-size: 30px;
+            color: rgb(255, 255, 255);
+        }
+
+        }
+
+        article {
+
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            padding-bottom: 100%;
+        }
+
+        /* Clear floats after the columns */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Estilo de footer */
+        footer {
+            background-color: rgb(65, 25, 63);
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 600px) {
+
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+
+
+
+
+
+    <body>
+
+
+        <header>
+            <h1>Pasteleria</h1>
+            <img src="Sin título-1.png" alt="IconoPast" width="10%" height="10%">
+            <h3>Todo para tu antojo</h3>
+            <br>
+
+        </header>
+
+        <section>
+            <article>
+                <h1>Bienvenido a DOLCE PLACER</h1>
+                <br>
+                <h3>Acontinuacion rellena tus datos personales y el siguiente formulario para hacer tu pedido</h3>
+                <br>
+                <br>
+                <br>
+                
+
+        </section>
+
+        <footer>
+            
+            <table>
+                <tr>
+                    <th><a href="#">Facebook</a></li></th>
+                    <th><a href="#">Instagram</a></li></th>
+                    <th><a href="#">Twitter</a></li></th>
+                </tr>
+
+        </footer>
+    
+
+    </body>
+</html>
