@@ -79,29 +79,50 @@
             <article>
                 <h1>Bienvenido a DOLCE PLACER</h1>
                 <br>
-                <h3>Acontinuacion rellena tus datos personales y el siguiente formulario para hacer tu pedido</h3>
+                <h3>Crea tu pastel</h3>
                 <br>
 
-                <form action="Pastel.html" id="form1" method="post">
 
-                <label for="nombre1">Dime tu nombre</label><br>
-                <input type="text" id="nombre1" name="nombre1"><br><br>
+                <form action="/accion.js" id="form1" method="post">
+                <h4>Dime el sabor del pan</h4><br>
+                <input type="radio" id="Chocolate" name="Saborpan" value="Chocolate">
+                <label for="Chocolate">Chocolate</label><br>
+                <input type="radio" id="Fresa" name="Saborpan" value="Fresa">
+                <label for="Fresa">Fresa</label><br>
+                <input type="radio" id="Red Velvet" name="Saborpan" value="Red Velvet">
+                <label for="Red Velvet">Red Velvet</label><br><br>
 
-                <label for="correo1">Dime tu correo</label><br>
-                <input type="email" id="correo1" name="correo1"><br><br>
-                
-                <label for="tel1">Dime tu número de teléfono</label><br>
-                <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+                <h4>Dime el tipo de pastel</h4><br>
+                <input type="radio" id="Tres leches" name="tipo" value="Tres leches">
+                <label for="Tres leches">Tres leches</label><br>
+                <input type="radio" id="Seco" name="tipo" value="Seco">
+                <label for="Seco">Seco</label><br>
+                <input type="radio" id="Humedo (A fin de el sabor)" name="tipo" value="Humedo (A fin de el sabor)">
+                <label for="Humedo (A fin de el sabor)">Humedo (A fin de el sabor)</label><br><br>
 
-                <label for="fecha1">Dime la fecha de entrega</label><br>
-                <input type="date" id="fecha1" name="fecha1"><br>
-                <input type="time" id="fecha4" name="fecha4"><br>
-                <br>
-                <br>
-                <p>Nota: todos los pedidos tiene que ser recogidos en tienda, se recomienda llegar 10 min antes de la hora de entrega.</p>
-                <br>
-                <br>
+                <h4>Dime el sabor de betun y relleno</h4><br>
+                <input type="radio" id="Cafe" name="relleno" value="Cafe">
+                <label for="Cafe">Cafe</label><br>
+                <input type="radio" id="Chocolate" name="relleno" value="Chocolate">
+                <label for="Chocolate">Chocolate</label><br>
+                <input type="radio" id="Vainilla" name="relleno" value="Vainilla">
+                <label for="Vainilla">Vainilla</label><br><br>
+
+                <h4>Input de selección multiple</h4><br>
+                <input type="checkbox" id="topping1" name="topping1" value="Cebolla">
+                <label for="topping1">Moño+20$</label><br>
+                <input type="checkbox" id="topping2" name="topping2" value="Cilantro">
+                <label for="topping2">Fresas+10</label><br>
+                <input type="checkbox" id="topping3" name="topping3" value="Salsa">
+                <label for="topping3">Chocolates+50</label><br><br>
+<br>
+
                 <input type="submit" value="Submit">
+                <br>
+                <br>
+
+            </form>
+
             
 
             </form>
